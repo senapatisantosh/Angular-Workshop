@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { AuthenticationComponent } from './authentication/authentication.component';
+import { CounterComponent } from './components/counter/counter.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AuthenticationComponent
+    AuthenticationComponent,
+    CounterComponent
   ],
   imports: [
     BrowserModule
