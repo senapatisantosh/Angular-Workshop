@@ -1,5 +1,5 @@
-<app-counter></app-counter>
+<div *ngFor="let couter of [1,2,3];index as i;even as o">
+    <app-counter [class.first.fontSize]="o" [header]="i" class="component-border">
 
-<app-counter></app-counter>
-
-<app-counter></app-counter>
+    </app-counter>
+</div>
